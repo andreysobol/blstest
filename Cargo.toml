@@ -1,0 +1,15 @@
+[package]
+name = "blstest"
+version = "0.1.0"
+authors = ["andrey"]
+edition = "2018"
+
+[dependencies]
+rand = "0.3"
+
+[dependencies.bls]
+path = "../bls"
+
+[dependencies.pairing]
+git = "https://github.com/mmaker/pairing"
+branch = "feature/hashing"
